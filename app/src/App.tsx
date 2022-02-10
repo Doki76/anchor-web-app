@@ -20,6 +20,7 @@ import { PollCreateRegisterCollateralAttributes } from 'pages/gov/poll.create.re
 import { PollCreateSpendCommunityPool } from 'pages/gov/poll.create.spend-community-pool';
 import { PollCreateTextProposal } from 'pages/gov/poll.create.text-proposal';
 import { PollDetail } from 'pages/gov/poll.detail';
+import { Guardians } from 'pages/guardians';
 import { Mypage } from 'pages/mypage';
 import { TermsOfService } from 'pages/terms';
 import { ClaimAll } from 'pages/trade/claim.all';
@@ -67,6 +68,9 @@ export function App() {
 
                 {/* Governance */}
                 <Route exact path={`/gov/`} component={GovernanceMain} />
+
+                {/* Guardians */}
+                <Route exact path={`/guardians/`} component={Guardians} />
 
                 {/* Poll */}
                 <Route exact path={`/poll/create`} component={PollCreate} />

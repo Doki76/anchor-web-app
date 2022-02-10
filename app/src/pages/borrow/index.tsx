@@ -20,7 +20,6 @@ function BorrowBase({ className }: BorrowProps) {
           <ParticipateInLiquidationsButton />
         </Buttons>
       </FlexTitleContainer>
-
       <Overview className="borrow" />
       <CollateralList className="collateral-list" />
     </PaddedLayout>

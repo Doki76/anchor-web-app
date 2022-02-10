@@ -30,4 +30,8 @@ export const menus: RouteMenu[] = [
     to: `/gov`,
     title: 'GOVERN',
   },
+  {
+    to: `/guardians`,
+    title: 'GUARDIANS',
+  },
 ];
